@@ -46,4 +46,4 @@ setInterval(function() {
   options.host = host;
   options.path = path;
   http.request(options, callback).end();
-}, 7000)
+}, 20000)
